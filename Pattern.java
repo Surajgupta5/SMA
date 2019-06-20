@@ -1,13 +1,13 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class Pattern
 {
     public static void main(String args[])
     {
-        int i, space, rows, k=0;
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter Number of Rows : ");
-        rows = scan.nextInt();
+        int i, space, rows=5, k=0;
+//         Scanner scan = new Scanner(System.in);
+//         System.out.print("Enter Number of Rows : ");
+//         rows = scan.nextInt();
         for(i=1; i<=rows; i++)
         {
             for(space=1; space<=(rows-i); space++)
